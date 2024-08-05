@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class node {
+class Node {
     int data;
     Node next;
 
