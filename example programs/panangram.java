@@ -1,5 +1,5 @@
 import java.util.*;
-public class panangram 
+public class panangram 1
 {
     	public static void main(String[] args) {
 		Runnable mega=() -> {
