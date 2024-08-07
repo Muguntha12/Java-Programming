@@ -28,7 +28,7 @@ class acer implements Runnable
 		}
 	}
 
-public class numseries {
+public class numseries1 {
    public static void main(String[] args) {
 		
 		Runnable ms=new acer();
