@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-    public class example
+    public class Example
     {
         Node head;
     
