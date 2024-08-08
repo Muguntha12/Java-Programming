@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class duplicate1
+class duplicate
 {
     public static void main(String[] args)
     {
