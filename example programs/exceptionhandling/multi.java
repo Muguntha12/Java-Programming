@@ -37,7 +37,7 @@ class div extends math
 		System.out.println("Div="+(a/b));
 	}
 }
-class multi
+class multi1
 {
 	public static void main(String[] args)
 	{
