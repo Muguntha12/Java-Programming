@@ -1,0 +1,20 @@
+import java.util.*;
+class reverseInteger
+     {
+        public static void main(String[]args)
+        {
+            Scanner obj=new Scanner(System.in);
+            int n=0;
+            int a=obj.nextInt();
+            while(a>0)
+            {
+                int v=a%10; 
+                n=n*10+v;
+                a=a/10;
+                
+            }
+            System.out.print(n);
+            
+        }
+    
+}
