@@ -1,0 +1,14 @@
+import java.util.*;
+class checkstring
+{
+    public static void main(String[]args)
+    {
+        Scanner obj=new Scanner(System.in);
+        String n=obj.nextLine();
+        String a=obj.nextLine();
+        if(n.contains(a.substring(0,a.length())))
+        {
+            System.out.print("found");
+        }
+    }
+}
