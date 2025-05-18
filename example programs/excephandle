@@ -1,0 +1,19 @@
+import java.util.*;
+class excephandle{
+    public static void main (String[] args) {
+    {
+        Scanner obj=new Scanner(System.in);
+        int a=40;
+        int b=obj.nextInt();
+     
+        try {
+             b=a/b;
+            System.out.print(b);
+            
+        } catch(ArithmeticException e) {
+          System.out.print("error");
+            
+        }
+    }
+}
+}
