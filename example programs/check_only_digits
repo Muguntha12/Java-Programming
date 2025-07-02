@@ -1,0 +1,31 @@
+import java.util.*;
+class  check_only_digits {
+    public static void main(String[]args)
+    {
+        Scanner obj=new Scanner(System.in);
+       String str=obj.nextLine();
+       String a="1234567890";
+       int c=0;
+       char arr[]=str.toCharArray();
+       for(int i=0;i<str.length();i++)
+       {
+        
+           if(a.indexOf(arr[i])!= -1)
+           {
+               c++;
+           }
+       }
+           if(c==str.length())
+           {
+               System.out.print("True");
+               
+           }
+           else
+           {
+               System.out.print("False");
+           }
+       
+       
+
+    }
+}
